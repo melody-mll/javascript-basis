@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //基本数据类型
+        //number boolean string null undefined
+        //变量的数据类型没有确定，需要在变量赋值后才知道变量的类型
+
+        //二进制 八进制 十进制 十六进制
+        //以0开头计算机会识别为八进制
+        console.log(012);//此时打印出来是10
+        //十六进制以0x开头 都会转换为10进制
+        console.log(0x12);
+
+        //isNaN()该方法用于判断是否是非数字
+        //数字类型则返回false,非数字类型则返回true
+
+        //string 字符串类型
+        //只要包含引号，是字符串类型
+        //'12','true'都是字符串类型
+        //当字符串中有多个引号时，需要用单双引号隔开
+        // var age=prompt('请输入您的年龄');
+        // alert('你的年龄是'+age+'岁');
+
+        //boolean型
+        //true 表示数值1，false表示数字0
+
+        //undefined,变量声明后没有赋值
+        var unde=undefined;
+        console.log(unde+'pink');//未声明的数值类型与字符串相连都是拼接的字符串
+        console.log(unde+1);//与数字类型相加，是NaN,表示非数字类型
+
+        //null 表示空值
+        var nul=null;
+        console.log(nul+'pink');//字符串的拼接
+        console.log(nul+1);//1 
+
+        //转换为字符串类型
+        //1.通过变量.toString()
+        //2.通过String(变量)
+        //3.通过字符串的拼接，和字符串的拼接都是字符串类型
+
+        //转换为数字类型
+        //parseInt(变量) parseFloat(变量)
+
+    </script>
+</body>
+</html>
