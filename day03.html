@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //==运算符会默认改变数据类型
+        console.log(3 == '3');
+        console.log(3 === '3');
+        //=是赋值，==是判断只要等号两边的值相等就可以，===等号两边的值和数据类型都要是相等的
+        //逻辑运算，与，或，非
+        //短路运算
+        //逻辑与
+        //表达式1 && 表达式2
+        //当表达式1为true时，返回表达式2
+        //当表达式1为false时，返回表达式1
+        console.log(123 && 456);//456
+        console.log(0 && 12);//0
+
+        //逻辑或短路运算
+        //当表达式1为true时，返回表达式1，当表达式1为false时，返回表达式2；
+        console.log(1 || 2);//1
+        console.log(0 || 23);//23
+    </script>
+</body>
+</html>
