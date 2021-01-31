@@ -1,0 +1,269 @@
+.header{
+    height: 40px;
+    font-size: 16px;
+}
+.header-middle{
+    width: 960px;
+    height: 40px;
+    margin: 0 auto;
+}
+.header-left{
+    width: 300px;
+    height: 40px;
+    float: left;
+}
+.header-left>span{
+    float: left;
+    line-height: 40px;
+}
+.header-left>span>span{
+    font-weight: bold;
+}
+.header-left>div{
+    float: right;
+    line-height: 40px;
+}
+.header-left  div a img{
+    width: 20px;
+    height: 17px;
+    float: left;
+    margin-top: 13px;
+    margin-right: 10px;
+}
+.header_hidden{
+    width: 200px;
+    height: 400px;
+    background-color: pink;
+}
+.header-right{
+    width: 300px;
+    height: 40px;
+    float: right;
+}
+.header-right div{
+    float: left;
+    line-height: 40px;
+}
+.header-right div:nth-child(3){
+    float: right;
+    line-height: 40px;
+}
+.header-right>div>img{
+    width: 17px;
+    height: 17px;
+}
+.register{
+    margin: auto 10px;
+}
+.headerlogo{
+    width: 960px;
+    height: 90px;
+    margin: 10px auto;
+
+}
+.headerlogoleft{
+    width: 220px;
+    height: 90px;
+    padding-top: 20px;
+    float: left;
+}
+.headerlogoright{
+    width: 350px;
+    height: 90px;
+    padding-top: 50px;
+    float: right;
+}
+.headerlogo>div:nth-child(1) img{
+    width: 220px;
+    height: 64px;   
+}
+.headerlogo>div:nth-child(2) img{
+    width: 330px;
+    height: 28px; 
+}
+.nav{
+    width: 960px;
+    height: 70px;
+    margin: 0px auto;
+}
+.navleft{
+    width: 300px;
+    height: 70px;
+    /* background-color: yellow; */
+    /* float: left; */
+}
+.navright{
+    width: 250px;
+    height: 70px;
+    border: 1px solid red;
+    margin-top: -70px;
+    float: right;
+}
+.banner{
+    width: 100%;
+    height: 520px;
+    border: 1px solid black;
+    position: relative;
+}
+.banner_main img{
+    width: 100%;
+    height: 400px;
+}
+.banner_position{
+    width: 960px;
+    height: 520px;
+    border: 1px solid red;
+    /* 绝对定位后，脱离文档流，不能使用margin，margin不会起作用 */
+    position: absolute;
+    top:0px;
+    /* left:calc(50%-960px/2); */
+    left: 180px;
+}
+.banner_left{
+    width: 240px;
+    height: 520px;
+    border: 1px solid blue;
+    float: left;
+}
+.banner_left ul li div{
+    direction: none;
+    text-decoration: none;
+}
+.banner_right{
+    width: 710px;
+    height: 520px;
+    border: 1px solid red;
+    position: relative;
+    float:right;
+}
+.right_top{
+    width: 220px;
+    height: 290px;
+    background-color: blueviolet;
+    position: absolute;
+    top:60px;
+    left: 460px;
+}
+.right_top span{
+    display:inline-block;
+    width: 160px;
+    height: 20px;
+    font-size: 12px;
+    margin: 10px auto;
+}
+.right_bottom{
+    width: 700px;
+    height: 160px;
+    background-color: brown;
+    position:absolute;
+    top: 360px;
+    left: 10px;
+}
+.right_bottom>div{
+    width: 150px;
+    height: 160px;
+    background-color: coral;
+    float: left;
+    margin-left: 15px;
+}
+.positionabsolute{
+    width: 65px;
+    height: 300px;
+    background-color: pink;
+    position: fixed;
+    top: 160px;
+    right:0px;
+    border-radius: 10px 0px 0px 10px;
+}
+.contentone{
+    width: 960px;
+    height: 600px;
+    background-color: pink;
+    clear: both;
+    margin: 120px auto 0px;
+}
+.contenttop{
+    width: 960px;
+    height: 83px;
+    background-color: coral;
+}
+.contenttop>div:first-child{
+    width: 313px;
+    height: 83px;
+    background-color: yellow;
+    float: left;
+}
+.contenttop>div:nth-child(2){
+    width: 448px;
+    height: 83px;
+    background-color: blue;
+    float: left;
+}
+.contenttop>div:nth-child(3){
+    width: 180px;
+    height: 83px;
+    background-color: blue;
+    float: right;
+}
+.contentbottom{
+    width:960px ;
+    height: 500px;
+    background-color: green;
+}
+.contentbottom_left{
+    width: 280px;
+    height: 500px;
+    background-color: greenyellow;
+    float: left;
+}
+.contentbottom_left img{
+    width: 100%;
+}
+.contentbottom_right{
+    width: 660px;
+    height: 500px;
+    background-color: grey;
+    float: right;
+}
+.contentbottom_right>div{
+    width: 307px;
+    height: 240px;
+    background-color: indigo;
+    margin: 10px 10px;
+    float: left;
+}
+.contentbottom_right>div>div>img{
+    width: 100%;
+    height: 173px;
+}
+/* .nav_left div{
+    line-height: 70px;
+} */
+/* .box1{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    float: left;
+    /* margin-bottom: 100px;
+}
+.box2{
+    width: 300px;
+    height: 300px;
+    background-color: pink;
+    浮动会不占据位置，可以通过设置clear来清楚浮动带来的问题
+    clear: both;
+    margin-top: 50px; 
+} */
+/* .father{
+    width: 500px;
+    height: 500px;
+    background-color: pink;
+    border: 1px solid black;
+}
+/* .son{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    会使父元素一起与上面的元素产生距离，要与父元素产生距离可以给父元素加边框 
+    margin-top: 200px;
+}  */

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>页面布局</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- 最上面的头部标签 -->
+   <div class="header">
+       <div class="header-middle">
+           <div class="header-left">
+               
+               <span><span>IT</span>-精品学习网</span>
+               <div>
+                   
+                <a href="">
+                   <img src="./image/header-left.png">
+                   核心产品
+                   <i>></i>
+                </a>
+               </div>
+               <div class="header_hidden">
+                   <ul>
+                       <li>
+                           <a href="">
+                               <img src="./image/headerhidden.jpg">java开发工程师
+                           </a>
+                       </li>
+                       <li>
+                        <a href="">
+                            <img src="./image/headerhidden.jpg">java开发工程师
+                        </a>
+                       </li>
+                       <li>
+                        <a href="">
+                            <img src="./image/headerhidden.jpg">java开发工程师
+                        </a>
+                       </li>
+                   </ul>
+               </div>
+            
+           </div>
+           <div class="header-right">
+               <div>
+                   <img src="./image/header-right01.png">
+                   <span>
+                       登陆
+                   </span>
+               </div>
+               <div class="register">
+                   注册
+               </div>
+               <div>
+                <img src="./image/header-right02.png">|
+                收藏本站
+               </div>
+           </div>
+       </div>
+   </div> 
+   <!-- 头部的logo图片布局 -->
+   <div class="headerlogo">
+       <div class="headerlogoleft">
+           <img src="./image/logo-left.png">       
+       </div>
+       <div class="headerlogoright">
+           <img src="./image/logo-right.png">
+       </div>
+   </div>
+   <!-- 头部下面的导航条部分 -->
+   <!-- <div class="nav">
+       <div class="nav_left"></div>
+       <div class="nav_center"></div>
+       <div class="nav_right"></div>
+   </div> -->
+   <div class="nav">
+    <div class="navleft">学习直通车</div>
+    <div class="navcenter"></div>
+    <div class="navright"></div>
+   </div>
+   <!-- 正文内容 -->
+   <div class="banner">
+       <div class="banner_main">
+           <img src="./image/banner.png">
+       </div>
+       <div class="banner_position">
+           <div class="banner_left">
+               <ul>
+                   <li>
+                       <div class="banner_left_top">java</div>
+                       <div class="banner_left_bottom">ssh</div>
+                   </li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+                   <li></li>
+               </ul>
+           </div>
+           <div class="banner_right">
+               <div class="right_top">
+                   <span>新人专享大礼，更多好礼等你</span>
+               </div>
+               <div class="right_bottom">
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+               </div>
+           </div>
+        </div>
+        <div class="positionabsolute">
+        </div>
+        <!-- 内容区域 -->
+        <div class="content">
+            <div class="contentone">
+                <div class="contenttop">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="contentbottom">
+                    <div class="contentbottom_left">
+                        <img src="./image/contentright.jpg">
+                    </div>
+                    <div class="contentbottom_right">
+                    <div>
+                        <div>
+                        <img src="./image/contentleft">
+                        </div>
+                        <div>JavaWeb从基础到项目实战</div>
+                        <div></div>
+                    </div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+       
+   </div>
+
+
+   <!-- 相对定位：占据原有位置，position:relative,相对于自己原来的位置
+   绝对定位：不占据原有位置，position:absolute,参考点是具有定位的父元素 -->
+   <!-- display,可以转变元素的属性，block:块级元素，inline:行内元素
+   inline-block:行类块元素，一行显示，可以设置宽高
+   None:进行隐藏，不占有原有位置
+   visibility:hidden，进行隐藏，占有原有位置，visible，进行显示，
+   opacity:0~1,可设置不透明度 -->
+   <!-- 盒子模型
+   外边距合并问题，当两个盒子都具有margin值时，在上下的方向会进行合并，会选择较大的数值 -->
+   <!-- <div class="box1"></div>
+   <div class="box2"></div> -->
+   <!-- <div class="father">
+       <div class="son"></div>
+   </div> -->
+</body>
+</html>
